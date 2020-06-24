@@ -11,6 +11,7 @@ namespace KatelleOnline.Models
         List<BasketItem> BasketItems { get; set; }
     }
 
+
     public interface IBasketItem
     {
         Product Product { get; set; }
