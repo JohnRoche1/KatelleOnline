@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KatelleOnline", "KatelleOnline.csproj", "{EA48705D-391C-4452-A958-38C5C292239D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NUnitTestProject", "..\NUnitTestProject\NUnitTestProject.csproj", "{50AFD9B3-69E2-4577-8ADE-5A93DC19437F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EA48705D-391C-4452-A958-38C5C292239D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA48705D-391C-4452-A958-38C5C292239D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA48705D-391C-4452-A958-38C5C292239D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA48705D-391C-4452-A958-38C5C292239D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50AFD9B3-69E2-4577-8ADE-5A93DC19437F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50AFD9B3-69E2-4577-8ADE-5A93DC19437F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50AFD9B3-69E2-4577-8ADE-5A93DC19437F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50AFD9B3-69E2-4577-8ADE-5A93DC19437F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1BF6ABDF-C64F-46D8-B179-EE90451F6B11}
+	EndGlobalSection
+EndGlobal

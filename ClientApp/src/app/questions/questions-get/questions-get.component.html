@@ -1,0 +1,11 @@
+<form [formGroup]="questionGetForm" (ngSubmit)="getQuestions()" >
+  <div class="form-group">
+    <label for="questionType">Question Type</label>
+    <select class="browser-default custom-select" id="questionType" formControlName="questionType">
+      <option value="1" selected>C#</option>
+      <option value="2">ASP.NET Web Api</option>
+      <option value="3">Angular</option>
+    </select>
+  </div>
+  <button type="submit" class="btn btn-primary">Get Questions</button>
+</form>
